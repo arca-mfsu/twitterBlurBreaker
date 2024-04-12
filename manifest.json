@@ -1,0 +1,11 @@
+{
+	"content_scripts": [{
+	  "matches": ["https://twitter.com/*","https://x.com/*"],
+	  "js": ["main.js"],
+	  "run_at": "document_end"
+	}],
+	"manifest_version": 2,
+	"name": "twitter blur break",
+	"description": "이 확장프로그램은 아무나 수정하거나 재배포하는것을 허용합니다.",
+	"version": "1.0.0"
+}
